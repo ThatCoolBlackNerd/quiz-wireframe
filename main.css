@@ -1,0 +1,56 @@
+* {
+box-sizing: border-box;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+header {
+    width: 100%;
+}
+
+.nbaLogo {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    background: lightgray;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+.quizLocation {
+   text-align: center;
+}
+
+.answer {
+    margin-bottom: 5px;
+    background: lightgray;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+
+}
+
+.pageInfo {
+    display: inline-block;
+    width: 100%;
+}
+
+ul.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    background: lightgray;
+  }
