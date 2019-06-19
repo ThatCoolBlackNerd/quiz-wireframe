@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -9,22 +9,27 @@
   </head>
   <body>
     <header role="Logo" class="topLogo">
-      <div class="nbaLogo">Logo Will Go Here</div>
+      <div class="nbaLogo">LOGO
+      </div>
     </header>
     <main role="main" id="js-quiz-location" class="quizLocation">
-      <h2>Questions will go here.</h2>
-      <!--This section will be in a form-->
-      <div class="answer ans-1">Answer 1</div>
-      <div class="answer ans-2">Answer 2</div>
-      <div class="answer ans-3">Answer 3</div>
-      <div class="answer ans-4">Answer 4</div>
+      <div class="quizInfo">
+        <h1>Page Title</h1>
+        <h2 class="testMotto">Subtitle</h2>
+        <section>
+          <ul class="landingList">
+            <li class="critera">Quiz Criteria</li>
+            <li class="criteria">Quiz Criteria</li>
+            <li class="criteria">Quiz Criteria</li>
+          </ul>
+        </section>
+      </div>
+      <div class="mainQuiz"></div>
     </main>
     <footer role="Page Info" id="js-page-info" class="pageInfo">
-        <ul class="info">
-            <li>Question Count</li>
-            <li>Next / Submit Button</li>
-            <li>Score Count</li>
-          </ul>
+        <div class="left">Question:<span class="questionNumber">/10</span></div>
+        <div class="center"><button type="button" class="actionButton">Shoot Your Shot!</button></div>
+        <div class="right">Score: <span class="totalScore">0</span></div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="questions.js"></script>
