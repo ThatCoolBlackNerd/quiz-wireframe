@@ -1,0 +1,42 @@
+<DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>NBA Quizz App</title>
+    <meta name="description" content="How much do you know about current and past NBA trivia?">
+    <link href="main.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header role="Logo" class="topLogo">
+      <div class="nbaLogo">Logo
+      </div>
+    </header>
+    <main role="main" id="js-quiz-location" class="quizLocation">
+      <div class="mainQuiz">
+      <h2>Question</h2>  
+        <form>
+            <fieldset>
+                <label class="answerChoices"><input type="radio"><span>answers</span>
+                </label>
+                <label class="answerChoices"><input type="radio"><span>answers</span>
+                </label>
+                <label class="answerChoices"><input type="radio"><span>answers</span>
+                </label>
+                <label class="answerChoices"><input type="radio"><span>answers</span>
+                </label>
+                <button type="submit" class="submitButton">Submit</button>
+            </fieldset>
+        </form>
+      </div>
+    </main>
+    <footer role="Page Info" id="js-page-info" class="pageInfo">
+        <div class="left">Question:<span class="questionNumber">/10</span></div>
+        <div class="center">Basketball gif</div>
+        <div class="right">Score: <span class="totalScore">0</span></div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="questions.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
