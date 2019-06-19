@@ -2,55 +2,88 @@
 box-sizing: border-box;
 }
 
-main {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-header {
-    width: 100%;
-}
-
 .nbaLogo {
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid black;
-    height: 100px;
-    width: 100px;
-    padding: 20px;
-}
-
-h2 {
     text-align: center;
-    background: lightgray;
-    padding: 30px;
+    height: 250px;
+    width: 350px;
+    border: 3px solid black;
+}
+
+
+main {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 100px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background: gray;
+    text-align: center;
+}
+
+.answerChoices {
+    background: grey;
     margin-bottom: 10px;
-}
-
-.quizLocation {
-   text-align: center;
-}
-
-.answer {
-    margin-bottom: 5px;
-    background: lightgray;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 25px;
-
-}
-
-.pageInfo {
-    display: inline-block;
-    width: 100%;
-}
-
-ul.info {
+    padding: 5px;
+    font-size: 30px;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    list-style: none;
-    background: lightgray;
-  }
+}
+
+footer {
+    background: gray;
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    font-size: 40px;
+    color: white;
+}
+
+.left {
+    float:left;
+    width:100px;
+    height: 20px;
+}
+
+.center {
+    display: inline-block;
+    margin:0 auto;
+    width:100px;
+    height: 20px;
+}
+
+.right {
+    float:right;
+    width:100px;
+    height: 20px;
+}
+.submitButton {
+    font-size: 30px;
+    color: white;
+    background: darkgray;
+    border: 4px solid lightgray;
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+    margin-top: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.actionButton {
+    font-size: 30px;
+    color: white;
+    background: darkgray;
+    border: 4px solid lightgray;
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+    margin-top: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
