@@ -1,6 +1,18 @@
 * {
 box-sizing: border-box;
 }
+header {
+    margin-top: 180px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.testMotto {
+    font-size: 30px;
+}
 
 .nbaLogo {
     margin-left: auto;
@@ -22,6 +34,22 @@ main {
     text-align: center;
 }
 
+.quizInfo {
+height: 400px;
+width: 400px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.criteria {
+    padding: 10px;
+}
+
+ul.landingList {
+    font-size: 30px;
+    text-align: left;
+}
+
 .answerChoices {
     background: grey;
     margin-bottom: 10px;
@@ -34,7 +62,7 @@ footer {
     background: gray;
     width: 100%;
     height: 150px;
-    position: fixed;
+    position: absolute;
     text-align: center;
     left: 0;
     bottom: 0;
@@ -75,6 +103,34 @@ footer {
 }
 
 .actionButton {
+    font-size: 30px;
+    color: white;
+    background: darkgray;
+    border: 4px solid lightgray;
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+    margin-top: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.nextButton {
+    font-size: 30px;
+    color: white;
+    background: darkgray;
+    border: 4px solid lightgray;
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+    margin-top: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.resetButton {
     font-size: 30px;
     color: white;
     background: darkgray;
